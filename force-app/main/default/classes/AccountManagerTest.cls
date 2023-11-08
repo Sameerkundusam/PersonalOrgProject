@@ -13,6 +13,7 @@ private class AccountManagerTest{
         Account  acc = AccountManager.getAccount();
         
         // Verify results
+        System.debug('helo');
         System.assert(acc != null);
     }
     
