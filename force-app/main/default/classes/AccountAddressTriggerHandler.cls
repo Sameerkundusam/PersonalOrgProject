@@ -4,6 +4,8 @@ public class AccountAddressTriggerHandler {
             for(Account alist:acclist){
                 if(alist.Match_Billing_Address__c == true){
                     alist.ShippingPostalCode = alist.BillingPostalCode;
+
+
                 }
             }
         }
